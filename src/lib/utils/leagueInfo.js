@@ -20,126 +20,7 @@ https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#ii-adding
 // To omit an optional field, set it's value to null
 
 export const managers = [
-    {
-      "managerID": "505457900789952512",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Seany C.",
-      "location": "Philadelphia, PA", // (optional)
-      "bio": "...",
-      "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
-      "favoriteTeam": "nyg", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
-      "rival": {
-        name: "Melanie Jr.", // Can be anything (usually your rival's name)
-        link: 6, // manager array number within this array, or null to link back to all managers page
-        image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
-      },
-      "favoritePlayer": 1426, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
-      "philosophy": "Hope is a dangerous thing. Hope can drive a man insane.",
-      "tradingScale": 10, // 1 - 10
-      "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-    },
-    {
-      "managerID": "388894880090300416",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Dylon",     
-      "location": "Brooklyn", // (optional)
-      "bio": "...",
-      "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
-      "favoriteTeam": "pit", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
-      "rival": {
-        name: "Nicky Bads", // Can be anything (usually your rival's name)
-        link: 5, // manager array number within this array, or null to link back to all managers page
-        image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
-      },
-      "favoritePlayer": 1426, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
-      "philosophy": "Benet Omalu Truther",
-      "tradingScale": 10, // 1 - 10
-      "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-    },
-    {
-      "managerID": "733729307582660608",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Josh",
-      "location": "Fenced-in yard, Keyport, NJ", // (optional)
-      "bio": "...",
-      "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
-      "favoriteTeam": "nyg", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
-      "rival": {
-        name: "Keyport's Finest - Tony F. Baby", // Can be anything (usually your rival's name)
-        link: 4, // manager array number within this array, or null to link back to all managers page
-        image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
-      },
-      "favoritePlayer": 1426, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
-      "philosophy": "Denny's or IHOP",
-      "tradingScale": 10, // 1 - 10
-      "preferredContact": "Carrier Pigeon", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-    },
-   {
-      "managerID": "868262330297958400",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Ant",
-      "location": "Non-fenced in yard, Keyport, NJ", // (optional)
-      "bio": "...",
-      "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
-      "favoriteTeam": "nyg", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
-      "rival": {
-        name: "Josh", // Can be anything (usually your rival's name)
-        link: 3, // manager array number within this array, or null to link back to all managers page
-        image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
-      },
-      "favoritePlayer": 1426, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
-      "philosophy": "Farewell Tour",
-      "tradingScale": 10, // 1 - 10
-      "preferredContact": "Phone", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-    },
   {
-      "managerID": "871067646291058688",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Nick",
-      "location": "Shrewsbury, NJ", // (optional)
-      "bio": "...",
-      "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
-      "favoriteTeam": "lvr", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
-      "rival": {
-        name: "Dylon", // Can be anything (usually your rival's name)
-        link: 3, // manager array number within this array, or null to link back to all managers page
-        image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
-      },
-      "favoritePlayer": 1426, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
-      "philosophy": "CTE is made up, Dylon's just retarded",
-      "tradingScale": 10, // 1 - 10
-      "preferredContact": "Phone", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-    },
-   {
-      "managerID": "388189322404204544",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Alec",
-      "location": "Philadelphia, PA", // (optional)
-      "bio": "...",
-      "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
-      "favoriteTeam": "phi", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
-      "rival": {
-        name: "Seany C", // Can be anything (usually your rival's name)
-        link: 1, // manager array number within this array, or null to link back to all managers page
-        image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
-      },
-      "favoritePlayer": 1426, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
-      "philosophy": "whatever Meg says...",
-      "tradingScale": 10, // 1 - 10
-      "preferredContact": "Phone", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-    },
-  {
-      "managerID": "86188126066065408",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Randy",
-      "location": "Jackson, NJ", // (optional)
-      "bio": "...",
-      "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
-      "favoriteTeam": "den", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
-      "rival": {
-        name: "Yermdaddy", // Can be anything (usually your rival's name)
-        link: 9, // manager array number within this array, or null to link back to all managers page
-        image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
-      },
-      "favoritePlayer": 1426, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
-      "philosophy": "Beast",
-      "tradingScale": 10, // 1 - 10
-      "preferredContact": "Phone", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-    },
-    {
       "managerID": "868173700309127168",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Will",
       "location": "Scotch Plains, NJ", // (optional)
@@ -148,7 +29,7 @@ export const managers = [
       "favoriteTeam": "nyg", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "rival": {
         name: "Gerbs", // Can be anything (usually your rival's name)
-        link: 10, // manager array number within this array, or null to link back to all managers page
+        link: 2, // manager array number within this array, or null to link back to all managers page
         image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
       "favoritePlayer": 1426, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
@@ -157,32 +38,15 @@ export const managers = [
       "preferredContact": "Carrier Pigeon", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
     {
-      "managerID": "864245021048688640",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Jeremy",
-      "location": "Brooklyn", // (optional)
-      "bio": "...",
-      "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
-      "favoriteTeam": "dal", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
-      "rival": {
-        name: "Randalpapi", // Can be anything (usually your rival's name)
-        link: 10, // manager array number within this array, or null to link back to all managers page
-        image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
-      },
-      "favoritePlayer": 1426, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
-      "philosophy": "Follow whatever Jerry Jones does",
-      "tradingScale": 10, // 1 - 10
-      "preferredContact": "Carrier Pigeon", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-    }
-      {
       "managerID": "869975461315416064",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Gerbs",
       "location": "Red Bank, NJ", // (optional)
       "bio": "...",
       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
-      "favoriteTeam": "dal", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+      "favoriteTeam": "min", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "rival": {
         name: "Will", // Can be anything (usually your rival's name)
-        link: 10, // manager array number within this array, or null to link back to all managers page
+        link: 1, // manager array number within this array, or null to link back to all managers page
         image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
       "favoritePlayer": 1426, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
